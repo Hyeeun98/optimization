@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<!-- saved from url=(0144)https://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-Progressive-Web-Apps-%EB%9E%80/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <title>프로그레시브 웹앱(Progressive Web Apps)이란? | Altenull's Blog</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="PWA,프로그레시브 웹앱,PROGRESSIVE WEB APPS">
+    
+    <meta name="description" content="프로그레시브 웹앱(Progressive Web Apps)은 Google I/O 2016에서 소개된 미래의 웹기술이며, PWA라고 줄여서 부르기도 합니다. 먼저 구글에서 소개하는 PWA는 이러합니다.  PWA는 최고의 웹과 최고의 앱을 결합한 경험이다. 브라우저를 통해 처음 방문한 사용자에게 유용하며, 설치가 필요하지 않다. 사용자가 PWA와 관계를 점진">
+<meta name="keywords" content="PWA,프로그레시브 웹앱,PROGRESSIVE WEB APPS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="프로그레시브 웹앱(Progressive Web Apps)이란?">
+<meta property="og:url" content="http://altenull.github.io/2018/02/25/프로그레시브-웹-앱-Progressive-Web-Apps-란/index.html">
+<meta property="og:site_name" content="Altenull&#39;s Blog">
+<meta property="og:description" content="프로그레시브 웹앱(Progressive Web Apps)은 Google I/O 2016에서 소개된 미래의 웹기술이며, PWA라고 줄여서 부르기도 합니다. 먼저 구글에서 소개하는 PWA는 이러합니다.  PWA는 최고의 웹과 최고의 앱을 결합한 경험이다. 브라우저를 통해 처음 방문한 사용자에게 유용하며, 설치가 필요하지 않다. 사용자가 PWA와 관계를 점진">
+<meta property="og:locale" content="ko">
+<meta property="og:image" content="http://altenull.github.io/images/thumbnails/thumbnail2.png">
+<meta property="og:updated_time" content="2018-03-13T16:57:46.238Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="프로그레시브 웹앱(Progressive Web Apps)이란?">
+<meta name="twitter:description" content="프로그레시브 웹앱(Progressive Web Apps)은 Google I/O 2016에서 소개된 미래의 웹기술이며, PWA라고 줄여서 부르기도 합니다. 먼저 구글에서 소개하는 PWA는 이러합니다.  PWA는 최고의 웹과 최고의 앱을 결합한 경험이다. 브라우저를 통해 처음 방문한 사용자에게 유용하며, 설치가 필요하지 않다. 사용자가 PWA와 관계를 점진">
+<meta name="twitter:image" content="http://altenull.github.io/images/thumbnails/thumbnail2.png">
+    
+    <link rel="canonical" href="http://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-progressive-web-apps-%EB%9E%80/">
+
+    
+
+    
+        <link rel="icon" href="https://altenull.github.io/css/images/favicon.png">
+    
+
+    <link rel="stylesheet" href="./pwa_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./pwa_files/styles.css">
+    <link rel="stylesheet" href="./pwa_files/styles(1).css">
+
+    <link rel="stylesheet" href="./pwa_files/style.css">
+
+    <script async="" src="./pwa_files/analytics.js.다운로드"></script><script src="./pwa_files/jquery.min.js.다운로드"></script>
+    
+    
+        <link rel="stylesheet" href="./pwa_files/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="./pwa_files/justifiedGallery.min.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-113144364-3', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+
+
+<script type="text/javascript" async="" src="./pwa_files/embed.js.다운로드"></script><link rel="prefetch" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.ecd4f8075055ad19101a403818f8e443.css"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.09288c92e04ecabc4c6ed5aa16297880.js"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.662837d4e26be7d9a8fcc9816bf3567b.js"><link rel="prefetch" as="script" href="https://disqus.com/next/config.js"><script src="./pwa_files/alfalfalfa.0823c767a3bc925f628afd9bed26c958.js.다운로드" async="" charset="UTF-8"></script></head>
+
+<body class="" style="">
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="https://altenull.github.io/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">IT Blog</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="https://altenull.github.io/">홈</a>
+                                </li>
+                            
+                                        <li class="main-nav-list-item top-level-menu"><a class="main-nav-list-link" href="https://altenull.github.io/categories/Life/">Life</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="https://altenull.github.io/categories/Life/%EC%83%9D%EA%B0%81%EA%B7%B8%EB%A6%87/">생각그릇</a></li></ul></li><li class="main-nav-list-item top-level-menu"><a class="main-nav-list-link current" href="https://altenull.github.io/categories/Web/">Web</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="https://altenull.github.io/categories/Web/PWA/">PWA</a></li></ul></li>
+                                    
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="https://about.me/heonyoungKim">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="검색">
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '포스트',
+            PAGES: 'Pages',
+            CATEGORIES: '카테고리',
+            TAGS: '태그',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="./pwa_files/insight.js.다운로드"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="https://altenull.github.io/categories/Web/">Web</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="https://altenull.github.io/categories/Web/PWA/">PWA</a>
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-프로그레시브-웹-앱-Progressive-Web-Apps-란" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        프로그레시브 웹앱(Progressive Web Apps)이란?
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="https://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-Progressive-Web-Apps-%EB%9E%80/" class="article-date">
+            <time datetime="2018-02-25T14:23:56.000Z" itemprop="datePublished">2018-02-25</time>
+        </a>
+    </div>
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="https://altenull.github.io/tags/PROGRESSIVE-WEB-APPS/">PROGRESSIVE WEB APPS</a>, <a class="tag-link" href="https://altenull.github.io/tags/PWA/">PWA</a>, <a class="tag-link" href="https://altenull.github.io/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9%EC%95%B1/">프로그레시브 웹앱</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody" lg-uid="lg0" lg-event-uid="">
+            <p align="center"><a href="./pwa_files/thumbnail2.png" title="" class="gallery-item" lg-event-uid="&amp;1"><img src="./pwa_files/thumbnail2.png" width="600"></a></p>
+
+<p><strong>프로그레시브 웹앱(Progressive Web Apps)</strong>은 Google I/O 2016에서 소개된 미래의 웹기술이며, <strong>PWA</strong>라고 줄여서 부르기도 합니다.</p>
+<p>먼저 구글에서 소개하는 PWA는 이러합니다.</p>
+<blockquote>
+<p>PWA는 최고의 웹과 최고의 앱을 결합한 경험이다. 브라우저를 통해 처음 방문한 사용자에게 유용하며, 설치가 필요하지 않다. 사용자가 PWA와 관계를 점진적으로 형성할수록 성능이 더욱 강력해 질 것이다. 느린 네트워크에서도 빠르게 로드되고, 관련된 푸시 알림을 전송한다. 모바일 앱처럼 전체 화면으로 로드되고, 홈 화면에 아이콘이 있다.</p>
+</blockquote>
+<p>쉽게 말하자면, PWA는 <strong>모바일 앱</strong>과 <strong>웹 기술</strong>의 장점을 결합한 것이라고 볼 수 있습니다.</p>
+<hr>
+<h1 id="왜-PWA인가"><a href="https://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-Progressive-Web-Apps-%EB%9E%80/#%EC%99%9C-PWA%EC%9D%B8%EA%B0%80" class="headerlink" title="왜 PWA인가?"></a>왜 PWA인가?</h1><p>먼저 몇 가지 통계를 살펴보겠습니다.</p>
+<p>2014년을 기점으로 모바일 사용자 수가 데스크탑 사용자 수를 넘어섰군요.</p>
+<p align="center"><a href="./pwa_files/number of users(desktop vs mobile).png" title="" class="gallery-item" lg-event-uid="&amp;2"><img src="./pwa_files/number of users(desktop vs mobile).png" width="500" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></a></p>
+
+<p>그리고 모바일 사용자의 87%는 웹보다 네이티브 앱에서 더 많은 시간을 보냅니다.</p>
+<p align="center"><a href="./pwa_files/time spent on mobile app vs web.png" title="" class="gallery-item" lg-event-uid="&amp;3"><img src="./pwa_files/time spent on mobile app vs web.png" width="500" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></a></p>
+
+<p><strong>왜 모바일 사용자 대부분은 웹보다 네이티브 앱에서 훨씬 더 많은 시간을 보내는 것일까요?</strong></p>
+<p>이 질문에 대해서 사용자들은 보통 2가지 장점을 이야기합니다.</p>
+<ol>
+<li>홈 스크린(Home Screen)에 아이콘이 있어서 찾기가 쉽다는 점.</li>
+<li>관련된 푸시 알람(Notification)을 보내준다는 점.</li>
+</ol>
+<p><strong>그렇다면 ‘네이티브 앱만 개발하고 서비스하면 되지 않나? 굳이 왜 웹을 만들지..?’라고 생각할 수 있는데요. 곧 생각이 달라질 것입니다.</strong></p>
+<p>모바일 사용자의 월간 앱 다운로드 수를 보여주는 통계입니다.</p>
+<p>50% 이상의 사용자는 앱을 전혀 다운로드 하지 않습니다.</p>
+<p align="center"><a href="./pwa_files/number of app downloads per month.png" title="" class="gallery-item" lg-event-uid="&amp;4"><img src="./pwa_files/number of app downloads per month.png" width="500" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></a></p>
+
+<p>그리고, 특정 3개의 앱에서 사용시간의 77%를 보냅니다.<code>(49% + 18% + 10%)</code></p>
+<p align="center"><a href="./pwa_files/top 10 app usage.png" title="" class="gallery-item" lg-event-uid="&amp;5"><img src="./pwa_files/top 10 app usage.png" width="500" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></a></p>
+
+<p>즉, 모바일 사용자는 새로운 앱을 다운로드하는 것에는 냉소적이며, 사용하던 앱을 계속해서 사용하는 경향이 있음을 알 수 있습니다.</p>
+<p><strong>그러면 웹 진영은 어떠할까요?</strong></p>
+<p>네이티브 앱 다운로드 수가 0개에 가까운 것에 비해, 모바일 사용자들은 한 달에 평균 100개 이상의 웹사이트를 방문한다고 합니다. 차이가 굉장히 크네요.</p>
+<p>이 차이를 만들어 내는 것은 바로 URL이 가지고 있는 힘 때문이라고 할 수 있습니다. 어떠한 웹사이트에 접속하기 위해서는 브라우저에 URL만 입력하면 되기 때문이죠. 매우 간단합니다.</p>
+<p>반면에 네이티브 앱을 사용하기 위해서는 앱 마켓에서 검색을 한 뒤, 다운로드를 해야합니다. 게다가 용량이 큰 앱이라면 다운로드가 완료될 때까지 기다려야 하는 불편함이 존재하죠. 웹에 비해 상당히 번거롭습니다.</p>
+<p><strong>지금까지의 내용을 바탕으로 네이티브 앱과 웹을 비교해보겠습니다.</strong></p>
+<p>네이티브 앱은 설치하는데에 드는 시간과 비용이 큽니다. 하지만 웹은 설치가 필요하지 않고, URL을 통한 접근이 아주 간단합니다.</p>
+<p>웹은 사용자가 한 번 사용하기에는 편리하지만, 반복해서 사용할 시에는 매 번 URL을 기억하고 입력해야 하는 수고가 듭니다. 이에 반해 네이티브 앱은 한 번 설치하고 나면 독자적인 아이콘을 통해 반복적으로 접근하는 것이 수월합니다.</p>
+<p>네이티브 앱은 플랫폼(안드로이드, iOS)에 종속되어 개발하는데에 많은 시간과 노력이 필요합니다. 하지만 웹은 플랫폼에 종속되지 않습니다.</p>
+<p>웹은 네트워크가 연결되어 있지 않을 시에는 사용이 불가능합니다. 하지만 네이티브 앱은 오프라인 상태에서도 작동합니다.</p>
+<p><strong>이제 PWA에 대해 조금 감이 잡히지 않으시나요..?</strong></p>
+<p>다시 한 번 강조해보겠습니다.</p>
+<p>네이티브 앱은 느린 네트워크에서도 작동하며, 백그라운드에서 푸시 알람을 보내줍니다. 또한, 카메라, 마이크 등에도 쉽게 접근하여 다양한 기능을 수행할 수 있습니다. 즉, Capability(능력)가 뛰어나다라고 할 수 있죠.</p>
+<p>웹은 URL을 통한 접근이 간단하고, 설치 과정이 없습니다. 즉, Reach(범위)가 넓다라고 할 수 있습니다.</p>
+<p>이는 다음 그림처럼 시각화 할 수 있습니다.</p>
+<p align="center"><a href="./pwa_files/capability&amp;reach.png" title="" class="gallery-item" lg-event-uid="&amp;6"><img src="./pwa_files/capability&amp;reach.png" width="500" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></a></p>
+
+<p>그리고 네이티브 앱과 웹의 장점을 결합한 PWA는 이쯤에 위치시킬 수 있겠네요.</p>
+<p align="center"><a href="./pwa_files/capability&amp;reach2.png" title="" class="gallery-item" lg-event-uid="&amp;7"><img src="./pwa_files/capability&amp;reach2.png" width="500" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);"></a></p>
+
+<hr>
+<h1 id="정리"><a href="https://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-Progressive-Web-Apps-%EB%9E%80/#%EC%A0%95%EB%A6%AC" class="headerlink" title="정리"></a>정리</h1><p>지금까지 내용을 종합해보면, 프로그레시브 웹앱(PWA)은 다음과 같이 요약할 수 있습니다.</p>
+<ol>
+<li>PWA는 네이티브 앱과 웹의 단점을 개선할 수 있다.</li>
+<li>PWA는 네이티브 앱과 같은 사용자 경험을 제공하는 웹앱이다.</li>
+<li>PWA는 사용자 경험의 품질을 근본적으로 향상시키는 것을 의미한다.</li>
+</ol>
+<hr>
+<h1 id="마치며"><a href="https://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-Progressive-Web-Apps-%EB%9E%80/#%EB%A7%88%EC%B9%98%EB%A9%B0" class="headerlink" title="마치며"></a>마치며</h1><p>이번 포스트에서는 PWA가 탄생하게 된 배경과 무엇을 개선하려고 하는지를 소개하는데에 초점을 맞췄습니다. 다음 포스트에서는 PWA에 대한 정보를 담고 있는 <a href="https://developers.google.com/web/fundamentals/web-app-manifest/" target="_blank" rel="noopener">웹앱 매니페스트(Web App Manifest)</a>와 오프라인 상태에서도 동작을 가능하게 하는 <a href="https://developers.google.com/web/fundamentals/primers/service-workers/" target="_blank" rel="noopener">서비스워커(Service Worker)</a> 등을 차근차근 알아가 보도록 하겠습니다.</p>
+<hr>
+<h1 id="참고"><a href="https://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-Progressive-Web-Apps-%EB%9E%80/#%EC%B0%B8%EA%B3%A0" class="headerlink" title="참고"></a>참고</h1><ul>
+<li><a href="https://developers.google.com/web/progressive-web-apps/" target="_blank" rel="noopener">Google Developers - Progressive Web Apps</a></li>
+<li><a href="https://www.youtube.com/watch?v=z2JgN6Ae-Bo&amp;t=237s" target="_blank" rel="noopener">Youtube - PWA Roadshow</a></li>
+<li><a href="https://www.comscore.com/" target="_blank" rel="noopener">comScore 통계</a></li>
+</ul>
+<p></p><div style="display: flex; justify-content: center;"><iframe id="ghcard-altenull-1" frameborder="0" scrolling="0" allowtransparency="true" src="./pwa_files/default.html" width="400" height="150"></iframe></div><p></p>
+<script src="./pwa_files/widget.js.다운로드"></script>
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://altenull.github.io/2018/02/25/프로그레시브-웹-앱-Progressive-Web-Apps-란/" data-id="cjguxz37g0001eotuz4zqxv2h" class="article-share-link"><i class="fa fa-share"></i>공유하기</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread"><iframe id="dsq-app2639" name="dsq-app2639" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="./pwa_files/saved_resource.html" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 392px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>팔로우:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/altenull" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="linkedin" href="https://www.linkedin.com/in/heonyoungkim" target="_blank">
+                        <i class="icon fa fa-linkedin"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="envelope" href="mailto:altenull@gmail.com" target="_blank">
+                        <i class="icon fa fa-envelope"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="https://altenull.github.io/2018/03/09/%EC%9B%B9%EC%95%B1-%EB%A7%A4%EB%8B%88%ED%8E%98%EC%8A%A4%ED%8A%B8-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9B%8C%EC%BB%A4-Web-App-Manifest-Service-Worker/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">새로운</strong>
+        <p class="article-nav-title">
+        
+            웹앱 매니페스트 &amp; 서비스워커(Web App Manifest &amp; Service Worker)
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="https://altenull.github.io/2018/02/19/Hexo-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">오래된</strong>
+        <p class="article-nav-title">Hexo 블로그 개설!</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">카테고리</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="https://altenull.github.io/categories/Life/">Life</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="https://altenull.github.io/categories/Life/%EC%83%9D%EA%B0%81%EA%B7%B8%EB%A6%87/">생각그릇</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="https://altenull.github.io/categories/Web/">Web</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="https://altenull.github.io/categories/Web/PWA/">PWA</a><span class="category-list-count">3</span></li></ul></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">최근 글</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="https://altenull.github.io/2018/03/23/%EB%9D%BC%EC%9D%B4%ED%8A%B8-%ED%95%98%EC%9A%B0%EC%8A%A4-Light-House-%EC%9B%B9%EC%95%B1-%ED%92%88%EC%A7%88-%EA%B0%9C%EC%84%A0%EB%8F%84%EA%B5%AC/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnails/thumbnail4.png)" alt="라이트 하우스(Light House) : 웹앱 품질 개선도구" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="https://altenull.github.io/categories/Web/">Web</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="https://altenull.github.io/categories/Web/PWA/">PWA</a></p>
+                            <p class="item-title"><a href="https://altenull.github.io/2018/03/23/%EB%9D%BC%EC%9D%B4%ED%8A%B8-%ED%95%98%EC%9A%B0%EC%8A%A4-Light-House-%EC%9B%B9%EC%95%B1-%ED%92%88%EC%A7%88-%EA%B0%9C%EC%84%A0%EB%8F%84%EA%B5%AC/" class="title">라이트 하우스(Light House) : 웹앱 품질 개선도구</a></p>
+                            <p class="item-date"><time datetime="2018-03-23T08:21:04.000Z" itemprop="datePublished">2018-03-23</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="https://altenull.github.io/2018/03/09/%EC%9B%B9%EC%95%B1-%EB%A7%A4%EB%8B%88%ED%8E%98%EC%8A%A4%ED%8A%B8-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9B%8C%EC%BB%A4-Web-App-Manifest-Service-Worker/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnails/thumbnail3.png)" alt="웹앱 매니페스트 &amp; 서비스워커(Web App Manifest &amp; Service Worker)" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="https://altenull.github.io/categories/Web/">Web</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="https://altenull.github.io/categories/Web/PWA/">PWA</a></p>
+                            <p class="item-title"><a href="https://altenull.github.io/2018/03/09/%EC%9B%B9%EC%95%B1-%EB%A7%A4%EB%8B%88%ED%8E%98%EC%8A%A4%ED%8A%B8-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9B%8C%EC%BB%A4-Web-App-Manifest-Service-Worker/" class="title">웹앱 매니페스트 &amp; 서비스워커(Web App Manifest &amp; Service Worker)</a></p>
+                            <p class="item-date"><time datetime="2018-03-09T12:10:07.000Z" itemprop="datePublished">2018-03-09</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="https://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-Progressive-Web-Apps-%EB%9E%80/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnails/thumbnail2.png)" alt="프로그레시브 웹앱(Progressive Web Apps)이란?" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="https://altenull.github.io/categories/Web/">Web</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="https://altenull.github.io/categories/Web/PWA/">PWA</a></p>
+                            <p class="item-title"><a href="https://altenull.github.io/2018/02/25/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9-%EC%95%B1-Progressive-Web-Apps-%EB%9E%80/" class="title">프로그레시브 웹앱(Progressive Web Apps)이란?</a></p>
+                            <p class="item-date"><time datetime="2018-02-25T14:23:56.000Z" itemprop="datePublished">2018-02-25</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="https://altenull.github.io/2018/02/19/Hexo-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/thumbnails/firstThumb.png)" alt="Hexo 블로그 개설!" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="https://altenull.github.io/categories/Life/">Life</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="https://altenull.github.io/categories/Life/%EC%83%9D%EA%B0%81%EA%B7%B8%EB%A6%87/">생각그릇</a></p>
+                            <p class="item-title"><a href="https://altenull.github.io/2018/02/19/Hexo-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4/" class="title">Hexo 블로그 개설!</a></p>
+                            <p class="item-date"><time datetime="2018-02-19T08:24:32.000Z" itemprop="datePublished">2018-02-19</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">아카이브</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="https://altenull.github.io/archives/2018/03/">3월 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="https://altenull.github.io/archives/2018/02/">2월 2018</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">태그 클라우드</h3>
+        <div class="widget tagcloud">
+            <a href="https://altenull.github.io/tags/BLOG/" style="font-size: 10px;">BLOG</a> <a href="https://altenull.github.io/tags/HEXO/" style="font-size: 10px;">HEXO</a> <a href="https://altenull.github.io/tags/Light-House/" style="font-size: 10px;">Light House</a> <a href="https://altenull.github.io/tags/PROGRESSIVE-WEB-APPS/" style="font-size: 10px;">PROGRESSIVE WEB APPS</a> <a href="https://altenull.github.io/tags/PWA/" style="font-size: 20px;">PWA</a> <a href="https://altenull.github.io/tags/Service-Worker/" style="font-size: 10px;">Service Worker</a> <a href="https://altenull.github.io/tags/Web-App-Manifest/" style="font-size: 10px;">Web App Manifest</a> <a href="https://altenull.github.io/tags/%EB%9D%BC%EC%9D%B4%ED%8A%B8-%ED%95%98%EC%9A%B0%EC%8A%A4/" style="font-size: 10px;">라이트 하우스</a> <a href="https://altenull.github.io/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EC%9B%B9%EC%95%B1/" style="font-size: 10px;">프로그레시브 웹앱</a>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="https://altenull.github.io/" class="logo"></a>
+                </h1>
+                <p>© 2018 altenull</p>
+                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'altenull';
+    
+    
+    var disqus_url = 'http://altenull.github.io/2018/02/25/프로그레시브-웹-앱-Progressive-Web-Apps-란/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="./pwa_files/lightgallery.min.js.다운로드"></script>
+        <script src="./pwa_files/lg-thumbnail.min.js.다운로드"></script>
+        <script src="./pwa_files/lg-pager.min.js.다운로드"></script>
+        <script src="./pwa_files/lg-autoplay.min.js.다운로드"></script>
+        <script src="./pwa_files/lg-fullscreen.min.js.다운로드"></script>
+        <script src="./pwa_files/lg-zoom.min.js.다운로드"></script>
+        <script src="./pwa_files/lg-hash.min.js.다운로드"></script>
+        <script src="./pwa_files/lg-share.min.js.다운로드"></script>
+        <script src="./pwa_files/lg-video.min.js.다운로드"></script>
+    
+    
+        <script src="./pwa_files/jquery.justifiedGallery.min.js.다운로드"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="./pwa_files/main.js.다운로드"></script>
+
+    </div><div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"><section class="ins-section"><header class="ins-section-header">포스트</header><div class="ins-selectable ins-search-item" data-url="/2018/03/23/라이트-하우스-Light-House-웹앱-품질-개선도구/"><header><i class="fa fa-file"></i>라이트 하우스(Light House) : 웹앱 품질 개선도구</header><p class="ins-search-preview">이번 포스트에서는 웹앱 품질 개선도구인 라이트 하우스(Light House)를 소개해 보도록 하겠습니다. 라이트 하우스는 웹앱의 성능(Performance), 접근성(Accessibility), 검색 엔진 최적화(SEO) 등을 검사하여 현재 웹앱의 부족한 부분을 정리하</p></div><div class="ins-selectable ins-search-item" data-url="/2018/03/09/웹앱-매니페스트-서비스워커-Web-App-Manifest-Service-Worker/"><header><i class="fa fa-file"></i>웹앱 매니페스트 &amp; 서비스워커(Web App Manifest &amp; Service Worker)</header><p class="ins-search-preview">이전 포스트에서 프로그레시브 웹앱(Progressive Web Apps)은 웹과 네이티브 앱이 가진 단점을 개선하는 새로운 형태의 웹앱이라고 설명드렸습니다. 그렇다면, 어떻게 PWA를 개발할 수 있을까요..? 어떠한 웹앱이 PWA가 되기 위해선 여러가지 조건을 충족하여</p></div><div class="ins-selectable ins-search-item" data-url="/2018/02/25/프로그레시브-웹-앱-Progressive-Web-Apps-란/"><header><i class="fa fa-file"></i>프로그레시브 웹앱(Progressive Web Apps)이란?</header><p class="ins-search-preview">프로그레시브 웹앱(Progressive Web Apps)은 Google I/O 2016에서 소개된 미래의 웹기술이며, PWA라고 줄여서 부르기도 합니다. 먼저 구글에서 소개하는 PWA는 이러합니다. PWA는 최고의 웹과 최고의 앱을 결합한 경험이다. 브라우저를 통해 처</p></div><div class="ins-selectable ins-search-item" data-url="/2018/02/19/Hexo-블로그-개설/"><header><i class="fa fa-file"></i>Hexo 블로그 개설!</header><p class="ins-search-preview">정적 블로그 프레임워크인 Hexo를 사용해서 블로그를 개설했다. AWS에서 Wordpress 플러그인으로 블로그를 만들어 보았는데, 도메인도 구입해야 하고 EC2 사용료도 내야해서 이것저것 찾아보다가 Hexo를 발견했다. Hexo는 Github pages를 통해서 무료</p></div></section><section class="ins-section"><header class="ins-section-header">카테고리</header><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/categories/Web/"><header><i class="fa fa-folder"></i>Web<span class="ins-slug">Web</span></header></div><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/categories/Web/PWA/"><header><i class="fa fa-folder"></i>PWA<span class="ins-slug">Web/PWA</span></header></div><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/categories/Life/"><header><i class="fa fa-folder"></i>Life<span class="ins-slug">Life</span></header></div><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/categories/Life/생각그릇/"><header><i class="fa fa-folder"></i>생각그릇<span class="ins-slug">Life/생각그릇</span></header></div></section><section class="ins-section"><header class="ins-section-header">태그</header><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/tags/PWA/"><header><i class="fa fa-tag"></i>PWA<span class="ins-slug">PWA</span></header></div><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/tags/Light-House/"><header><i class="fa fa-tag"></i>Light House<span class="ins-slug">Light-House</span></header></div><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/tags/라이트-하우스/"><header><i class="fa fa-tag"></i>라이트 하우스<span class="ins-slug">라이트-하우스</span></header></div><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/tags/Web-App-Manifest/"><header><i class="fa fa-tag"></i>Web App Manifest<span class="ins-slug">Web-App-Manifest</span></header></div><div class="ins-selectable ins-search-item" data-url="http://altenull.github.io/tags/Service-Worker/"><header><i class="fa fa-tag"></i>Service Worker<span class="ins-slug">Service-Worker</span></header></div></section></div>
+        </div>
+    </div>
+</div>
+
+
+<iframe style="display: none;" src="./pwa_files/saved_resource(1).html"></iframe></body></html>

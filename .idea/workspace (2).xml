@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="748c8b70-6a7d-49b6-ae86-6243783fbe17" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="56af0f88-0f76-4d73-a1ae-e3bc651f6ae6" />
+  <component name="ProjectId" id="1d9od7J9lbqRsnLdmVqslJC2ZgJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/logistic_regression" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\^Fbprophet" />
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\^linear_regression" />
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\^KNN" />
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\^logistic_regression" />
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\1.재고관리" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\logistic_regression" />
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\KNN" />
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\linear_regression" />
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization\pairplot" />
+      <recent name="C:\Users\ashle\OneDrive\바탕 화면\optimization" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.breast_cancer_pairplot">
+    <configuration name="breast_cancer_pairplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pairplot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pairplot/breast_cancer_pairplot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fbphophet 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/^Fbprophet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/^Fbprophet/fbphophet 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="least_squares_california" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/^linear_regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/^linear_regression/least_squares_california.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sharing_bike_category_datetime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pairplot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pairplot/sharing_bike_category_datetime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/^Fbprophet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/^Fbprophet/stock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.breast_cancer_pairplot" />
+        <item itemvalue="Python.least_squares_california" />
+        <item itemvalue="Python.stock" />
+        <item itemvalue="Python.fbphophet 2" />
+        <item itemvalue="Python.sharing_bike_category_datetime" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="748c8b70-6a7d-49b6-ae86-6243783fbe17" name="Default Changelist" comment="" />
+      <created>1591846754156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591846754156</updated>
+      <workItem from="1591846758353" duration="524000" />
+      <workItem from="1591856110643" duration="3731000" />
+      <workItem from="1591925901647" duration="595000" />
+      <workItem from="1591928238100" duration="31000" />
+      <workItem from="1592048679880" duration="3920000" />
+      <workItem from="1592072572730" duration="882000" />
+      <workItem from="1592073800060" duration="721000" />
+      <workItem from="1592102213080" duration="958000" />
+      <workItem from="1592277147186" duration="1196000" />
+      <workItem from="1592364096799" duration="5754000" />
+      <workItem from="1592532552053" duration="612000" />
+      <workItem from="1595814336289" duration="1436000" />
+      <workItem from="1595990961291" duration="54000" />
+      <workItem from="1595991038606" duration="977000" />
+      <workItem from="1596539969692" duration="1019000" />
+      <workItem from="1596541196735" duration="4845000" />
+      <workItem from="1596697650259" duration="7885000" />
+      <workItem from="1597144394401" duration="5441000" />
+      <workItem from="1597304093248" duration="1922000" />
+      <workItem from="1597316948192" duration="6238000" />
+      <workItem from="1597749191931" duration="5618000" />
+      <workItem from="1597921872747" duration="4838000" />
+      <workItem from="1598354132646" duration="5366000" />
+      <workItem from="1598455076645" duration="1955000" />
+      <workItem from="1598527126200" duration="5031000" />
+      <workItem from="1598693175160" duration="386000" />
+      <workItem from="1599144454206" duration="2315000" />
+      <workItem from="1600168632526" duration="6123000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1597305341805">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1597305341805" />
+    <state x="309" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603367208530">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="309" y="169" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.1027@0.0.1707.1027" timestamp="1603367208530" />
+    <state x="550" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600169117964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600169117964" />
+    <state x="609" y="216" key="#xdebugger.evaluate" timestamp="1604577901585">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="609" y="216" key="#xdebugger.evaluate/0.0.1707.1027@0.0.1707.1027" timestamp="1604577901585" />
+    <state x="610" y="208" key="FileChooserDialogImpl" timestamp="1604474564165">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599149928485" />
+    <state x="610" y="208" key="FileChooserDialogImpl/0.0.1707.1027@0.0.1707.1027" timestamp="1604474564165" />
+    <state width="1685" height="289" key="GridCell.Tab.0.bottom" timestamp="1604580973457">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600213794757" />
+    <state width="1685" height="289" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1604580973457" />
+    <state width="1685" height="289" key="GridCell.Tab.0.center" timestamp="1604580973456">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600213794757" />
+    <state width="1685" height="289" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1604580973456" />
+    <state width="1685" height="289" key="GridCell.Tab.0.left" timestamp="1604580973456">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600213794757" />
+    <state width="1685" height="289" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1604580973456" />
+    <state width="1685" height="289" key="GridCell.Tab.0.right" timestamp="1604580973457">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600213794757" />
+    <state width="1685" height="289" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1604580973457" />
+    <state width="1685" height="341" key="GridCell.Tab.1.bottom" timestamp="1604580973444">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598400174245" />
+    <state width="1685" height="341" key="GridCell.Tab.1.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1604580973444" />
+    <state width="1685" height="341" key="GridCell.Tab.1.center" timestamp="1604580973444">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598400174245" />
+    <state width="1685" height="341" key="GridCell.Tab.1.center/0.0.1707.1027@0.0.1707.1027" timestamp="1604580973444" />
+    <state width="1685" height="341" key="GridCell.Tab.1.left" timestamp="1604580973444">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598400174245" />
+    <state width="1685" height="341" key="GridCell.Tab.1.left/0.0.1707.1027@0.0.1707.1027" timestamp="1604580973444" />
+    <state width="1685" height="341" key="GridCell.Tab.1.right" timestamp="1604580973444">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598400174245" />
+    <state width="1685" height="341" key="GridCell.Tab.1.right/0.0.1707.1027@0.0.1707.1027" timestamp="1604580973444" />
+    <state x="403" y="54" width="981" height="707" key="SettingsEditor" timestamp="1603971576509">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="66" y="75" width="981" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598358761100" />
+    <state x="403" y="54" key="SettingsEditor/0.0.1707.1027@0.0.1707.1027" timestamp="1603971576509" />
+    <state x="193" y="386" width="840" height="429" key="dock-window-1" timestamp="1598355261187">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="386" width="840" height="429" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1598355261187" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597146080823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597146080823" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/^linear_regression/least_squares_california.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
